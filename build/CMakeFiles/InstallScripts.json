@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/jacob/dev/gong/build/cmake_install.cmake",
+		"/home/jacob/dev/gong/build/cpp/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

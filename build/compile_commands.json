@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/jacob/dev/gong/build",
+  "command": "/usr/bin/clang++ -I/home/jacob/dev/gong/cpp/include -g -std=gnu++20 -o cpp/CMakeFiles/gong-core.dir/src/storage/local_storage.cpp.o -c /home/jacob/dev/gong/cpp/src/storage/local_storage.cpp",
+  "file": "/home/jacob/dev/gong/cpp/src/storage/local_storage.cpp",
+  "output": "cpp/CMakeFiles/gong-core.dir/src/storage/local_storage.cpp.o"
+},
+{
+  "directory": "/home/jacob/dev/gong/build",
+  "command": "/usr/bin/clang++ -I/home/jacob/dev/gong/cpp/include -g -std=gnu++20 -o cpp/CMakeFiles/gong-core.dir/src/storage/storage_provider.cpp.o -c /home/jacob/dev/gong/cpp/src/storage/storage_provider.cpp",
+  "file": "/home/jacob/dev/gong/cpp/src/storage/storage_provider.cpp",
+  "output": "cpp/CMakeFiles/gong-core.dir/src/storage/storage_provider.cpp.o"
+}
+]

@@ -1,0 +1,5 @@
+/home/jacob/dev/gong/build/CMakeFiles/edit_cache.dir
+/home/jacob/dev/gong/build/CMakeFiles/rebuild_cache.dir
+/home/jacob/dev/gong/build/cpp/CMakeFiles/gong-core.dir
+/home/jacob/dev/gong/build/cpp/CMakeFiles/edit_cache.dir
+/home/jacob/dev/gong/build/cpp/CMakeFiles/rebuild_cache.dir

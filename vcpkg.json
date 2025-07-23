@@ -1,0 +1,24 @@
+{
+  "name": "gong",
+  "version": "0.1.0",
+  "description": "Cross-platform backup and sync library",
+  "dependencies": [
+    "pybind11",
+    "fmt",
+    "spdlog",
+    "nlohmann-json",
+    "openssl",
+    "curl",
+    "gtest"
+  ],
+  "features": {
+    "aws": {
+      "description": "AWS S3 support",
+      "dependencies": ["aws-sdk-cpp[s3]"]
+    },
+    "gcp": {
+      "description": "Google Cloud Storage support", 
+      "dependencies": ["google-cloud-cpp[storage]"]
+    }
+  }
+}
