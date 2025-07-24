@@ -10,6 +10,15 @@ add_library(gong-core
     src/storage/storage_provider.cpp
 )
 
+find_package(fmt REQUIRED)
+find_package(spdlog REQUIRED)
+
+target_link_libraries(gong-core
+    PUBLIC
+        fmt::fmt
+        spdlog::spdlog
+)
+
 target_include_directories(gong-core
     PUBLIC
         ${CMAKE_CURRENT_LIST_DIR}/include

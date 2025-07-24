@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Cross-platform backup and sync library",
   "dependencies": [
+    "gtest",
     "pybind11",
     "fmt",
     "spdlog",

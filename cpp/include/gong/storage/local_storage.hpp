@@ -23,11 +23,11 @@ public:
                              const std::string& local_path,
                              ProgressCallback callback = nullptr) override;
     
-    Result<void> delete_file(const std::string& path) override;
+    //Result<void> delete_file(const std::string& path) override;
     
-    Result<std::vector<FileInfo>> list_directory(const std::string& path) override;
+    // Result<std::vector<FileInfo>> list_directory(const std::string& path) override;
     Result<void> create_directory(const std::string& path) override;
-    Result<void> delete_directory(const std::string& path, bool recursive = false) override;
+    //Result<void> delete_directory(const std::string& path, bool recursive = false) override;
     
     Result<FileInfo> get_file_info(const std::string& path) override;
     

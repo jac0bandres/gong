@@ -31,8 +31,8 @@ namespace gong {
         T& value() {
             if (is_error()) {
                 throw std::runtime_error("Attempted to get value from error result: " + error());
-                return std::get<T>(data_);
             }
+            return std::get<T>(data_);
         }
 
         // get error message
